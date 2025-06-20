@@ -1,0 +1,47 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "X": "#wooden_tool_materials",
+        "O": "#wooden_buttons",
+        "#": "bowl"
+    },
+    "pattern": [
+        " X ",
+        "XOX",
+        " # "
+    ],
+    "result": {
+        "id": "wooden_sword",
+        "components": {
+            "item_name": {
+                "fallback": "Wooden GPP",
+                "translate": "item.gpp.wooden_gpp"
+            },
+            "item_model": "barrier",
+            "custom_model_data": { "strings": [ "wooden_gpp" ] },
+            "!tool": {},
+            "!weapon": {},
+            "!attribute_modifiers": {},
+            "consumable": {
+                "consume_seconds": 99999999999999,
+                "sound": "entity.bee.hurt",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "id": "gpp:wooden_gpp",
+                "max_damage": 59,
+                "gpp": {
+                    "UUID": false,
+                    "attack": {
+                        "damage": 4,
+                        "cooldown": 12
+                    },
+                    "active": false,
+                    "color": "#735621",
+                    "sleep_exp": 1
+                }
+            }
+        }
+    }
+}

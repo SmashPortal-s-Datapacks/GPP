@@ -1,0 +1,1 @@
+execute store result entity @s Item.components.minecraft:custom_data.gpp.UUID int 1 run scoreboard players add *latest_id gpp 1

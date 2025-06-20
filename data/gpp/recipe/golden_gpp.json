@@ -1,0 +1,47 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "X": "#gold_tool_materials",
+        "O": "#wooden_buttons",
+        "#": "bowl"
+    },
+    "pattern": [
+        " X ",
+        "XOX",
+        " # "
+    ],
+    "result": {
+        "id": "golden_sword",
+        "components": {
+            "item_name": {
+                "fallback": "Golden GPP",
+                "translate": "item.gpp.golden_gpp"
+            },
+            "item_model": "barrier",
+            "custom_model_data": { "strings": [ "golden_gpp" ] },
+            "!tool": {},
+            "!weapon": {},
+            "!attribute_modifiers": {},
+            "consumable": {
+                "consume_seconds": 99999999999999,
+                "sound": "entity.bee.hurt",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "id": "gpp:golden_gpp",
+                "max_damage": 32,
+                "gpp": {
+                    "UUID": false,
+                    "attack": {
+                        "damage": 4,
+                        "cooldown": 12
+                    },
+                    "active": false,
+                    "color": "#e4e855",
+                    "sleep_exp": 36
+                }
+            }
+        }
+    }
+}

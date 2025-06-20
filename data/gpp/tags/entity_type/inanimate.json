@@ -1,0 +1,13 @@
+{
+    "values": [
+        "#boat",
+        "#gpp:inanimate/chest_boat",
+        "#gpp:inanimate/decor",
+        "#gpp:inanimate/drop",
+        "#gpp:inanimate/hazard",
+        "#gpp:inanimate/minecart",
+        "#gpp:inanimate/projectile",
+        "#gpp:inanimate/technical",
+        "leash_knot"
+    ]
+}

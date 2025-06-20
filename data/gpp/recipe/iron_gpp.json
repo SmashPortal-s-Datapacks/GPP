@@ -1,0 +1,47 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "X": "#iron_tool_materials",
+        "O": "#wooden_buttons",
+        "#": "bowl"
+    },
+    "pattern": [
+        " X ",
+        "XOX",
+        " # "
+    ],
+    "result": {
+        "id": "iron_sword",
+        "components": {
+            "item_name": {
+                "fallback": "Iron GPP",
+                "translate": "item.gpp.iron_gpp"
+            },
+            "item_model": "barrier",
+            "custom_model_data": { "strings": [ "iron_gpp" ] },
+            "!tool": {},
+            "!weapon": {},
+            "!attribute_modifiers": {},
+            "consumable": {
+                "consume_seconds": 99999999999999,
+                "sound": "entity.bee.hurt",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "id": "gpp:iron_gpp",
+                "max_damage": 250,
+                "gpp": {
+                    "UUID": false,
+                    "attack": {
+                        "damage": 6,
+                        "cooldown": 12
+                    },
+                    "active": false,
+                    "color": "#d2d2d2",
+                    "sleep_exp": 9
+                }
+            }
+        }
+    }
+}

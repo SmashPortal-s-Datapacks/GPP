@@ -1,0 +1,44 @@
+{
+    "criteria": {
+        "asleep": {
+            "trigger": "tick",
+            "conditions": { "player": [ {
+                "condition": "all_of",
+                "terms": [
+                    {
+                        "condition": "inverted",
+                        "term": {
+                            "condition": "entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{ Tags: ['asleep'] }"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{ SleepTimer: 99s }"
+                        }
+                    }
+                ]
+            } ] }
+        },
+        "awake": {
+            "trigger": "tick",
+            "conditions": { "player": [{
+                "condition": "entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{ Tags: ['asleep'], SleepTimer: 0s }"
+                }
+            } ] }
+        }
+    },
+    "requirements": [[
+        "asleep",
+        "awake"
+    ]],
+    "rewards": { "function": "gpp:player/advancement/sleep_exp" }
+}

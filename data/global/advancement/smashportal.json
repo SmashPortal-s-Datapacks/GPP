@@ -1,0 +1,16 @@
+{
+	"display": {
+		"title": "SmashPortal",
+		"description": "u/SmashPortal",
+		"icon": {
+			"id": "minecraft:player_head",
+			"components": { "profile": "SmashPortal" }
+	 	},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:root",
+	"criteria": { "trigger": {
+		"trigger": "minecraft:tick"
+	} }
+}

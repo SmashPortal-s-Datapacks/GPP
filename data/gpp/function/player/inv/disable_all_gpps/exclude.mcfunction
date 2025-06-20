@@ -1,0 +1,1 @@
+$data remove storage gpp:storage gpp.inventory.list[{components:{"minecraft:custom_data":{gpp:{UUID:$(UUID),active:true}}}}]

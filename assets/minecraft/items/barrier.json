@@ -1,0 +1,61 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "when": "golden_gpp",
+                "model": {
+                    "model": "gpp:item/golden_gpp",
+                    "type": "model"
+                }
+            },
+            {
+                "when": "wooden_gpp",
+                "model": {
+                    "model": "gpp:item/wooden_gpp",
+                    "type": "model"
+                }
+            },
+            {
+                "when": "stone_gpp",
+                "model": {
+                    "model": "gpp:item/stone_gpp",
+                    "type": "model"
+                }
+            },
+            {
+                "when": "iron_gpp",
+                "model": {
+                    "model": "gpp:item/iron_gpp",
+                    "type": "model"
+                }
+            },
+            {
+                "when": "diamond_gpp",
+                "model": {
+                    "model": "gpp:item/diamond_gpp",
+                    "type": "model"
+                }
+            },
+            {
+                "when": "netherite_gpp",
+                "model": {
+                    "model": "gpp:item/netherite_gpp",
+                    "type": "model"
+                }
+            },
+            {
+                "when": "gpp",
+                "model": {
+                    "model": "gpp:item/gpp",
+                    "type": "model"
+                }
+            }
+        ],
+        "fallback": {
+            "model": "minecraft:item/barrier",
+            "type": "model"
+        }
+    }
+}

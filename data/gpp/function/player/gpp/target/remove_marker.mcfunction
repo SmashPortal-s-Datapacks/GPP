@@ -1,0 +1,1 @@
+$execute as @n[nbt={UUID:$(target)}] run function gpp:mob/remove_marker

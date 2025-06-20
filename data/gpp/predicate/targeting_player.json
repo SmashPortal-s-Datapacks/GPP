@@ -1,0 +1,15 @@
+[
+    {
+        "condition":"entity_properties",
+        "entity": "this",
+        "predicate": { "targeted_entity": { "type": "player" } }
+    },
+    {
+        "condition": "inverted",
+        "term": {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": { "nbt": "{Health:0.0f}" }
+        }
+    }
+]

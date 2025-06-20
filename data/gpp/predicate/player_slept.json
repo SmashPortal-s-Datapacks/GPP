@@ -1,0 +1,11 @@
+[
+    {
+        "condition": "reference",
+        "name": "gpp:active_gpp"
+    },
+    {
+        "condition": "time_check",
+        "value": 11,
+        "period": 24000
+    }
+]

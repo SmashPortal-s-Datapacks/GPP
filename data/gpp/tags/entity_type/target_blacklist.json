@@ -1,0 +1,15 @@
+{
+    "values": [
+        "player",
+        "#gpp:inanimate",
+        "#gpp:mob/passive",
+        "bee",
+        "dolphin",
+        "fox",
+        "goat",
+        "iron_golem",
+        "llama", "trader_llama",
+        "panda",
+        "wolf"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "X": "#netherite_tool_materials",
+        "O": "#wooden_buttons",
+        "#": "bowl"
+    },
+    "pattern": [
+        " X ",
+        "XOX",
+        " # "
+    ],
+    "result": {
+        "id": "netherite_sword",
+        "components": {
+            "item_name": {
+                "fallback": "Netherite GPP",
+                "translate": "item.gpp.netherite_gpp"
+            },
+            "item_model": "barrier",
+            "custom_model_data": { "strings": [ "netherite_gpp" ] },
+            "!tool": {},
+            "!weapon": {},
+            "!attribute_modifiers": {},
+            "consumable": {
+                "consume_seconds": 99999999999999,
+                "sound": "entity.bee.hurt",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "id": "gpp:netherite_gpp",
+                "max_damage": 2031,
+                "gpp": {
+                    "UUID": false,
+                    "attack": {
+                        "damage": 8,
+                        "cooldown": 12
+                    },
+                    "active": false,
+                    "color": "#6e656e",
+                    "sleep_exp": 25
+                }
+            }
+        }
+    }
+}

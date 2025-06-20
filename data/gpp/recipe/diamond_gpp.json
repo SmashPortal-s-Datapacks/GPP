@@ -1,0 +1,47 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "X": "#diamond_tool_materials",
+        "O": "#wooden_buttons",
+        "#": "bowl"
+    },
+    "pattern": [
+        " X ",
+        "XOX",
+        " # "
+    ],
+    "result": {
+        "id": "diamond_sword",
+        "components": {
+            "item_name": {
+                "fallback": "Diamond GPP",
+                "translate": "item.gpp.diamond_gpp"
+            },
+            "item_model": "barrier",
+            "custom_model_data": { "strings": [ "diamond_gpp" ] },
+            "!tool": {},
+            "!weapon": {},
+            "!attribute_modifiers": {},
+            "consumable": {
+                "consume_seconds": 99999999999999,
+                "sound": "entity.bee.hurt",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "id": "gpp:diamond_gpp",
+                "max_damage": 1561,
+                "gpp": {
+                    "UUID": false,
+                    "attack": {
+                        "damage": 7,
+                        "cooldown": 12
+                    },
+                    "active": false,
+                    "color": "#29c3a8",
+                    "sleep_exp": 16
+                }
+            }
+        }
+    }
+}

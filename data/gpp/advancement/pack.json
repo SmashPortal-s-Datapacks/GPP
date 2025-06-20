@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": "GPP",
+		"description": "",
+		"icon": {
+			"id": "barrier",
+			"components": {
+				"item_model": "barrier",
+                "custom_model_data": {
+                    "strings": [ "gpp" ]
+                }
+			}
+	 	},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:smashportal",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "X": "#stone_tool_materials",
+        "O": "#wooden_buttons",
+        "#": "bowl"
+    },
+    "pattern": [
+        " X ",
+        "XOX",
+        " # "
+    ],
+    "result": {
+        "id": "stone_sword",
+        "components": {
+            "item_name": {
+                "fallback": "Stone GPP",
+                "translate": "item.gpp.stone_gpp"
+            },
+            "item_model": "barrier",
+            "custom_model_data": { "strings": [ "stone_gpp" ] },
+            "!tool": {},
+            "!weapon": {},
+            "!attribute_modifiers": {},
+            "consumable": {
+                "consume_seconds": 99999999999999,
+                "sound": "entity.bee.hurt",
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "id": "gpp:stone_gpp",
+                "max_damage": 131,
+                "gpp": {
+                    "UUID": false,
+                    "attack": {
+                        "damage": 5,
+                        "cooldown": 12
+                    },
+                    "active": false,
+                    "color": "#858585",
+                    "sleep_exp": 4
+                }
+            }
+        }
+    }
+}

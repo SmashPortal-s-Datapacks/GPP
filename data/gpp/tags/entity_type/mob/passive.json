@@ -1,0 +1,19 @@
+{
+    "values": [
+        "#gpp:mob/passive/amphibian",
+        "#gpp:mob/passive/bird",
+        "#gpp:mob/passive/equine",
+        "#gpp:mob/passive/feline",
+        "#gpp:mob/passive/fish",
+        "#gpp:mob/passive/minecraft",
+        "#gpp:mob/passive/squid",
+        "armadillo",
+        "bat",
+        "camel",
+        "cow",
+        "pig",
+        "rabbit",
+        "sheep",
+        "turtle"
+    ]
+}

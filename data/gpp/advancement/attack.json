@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "attack": {
+            "trigger": "tick",
+            "conditions": { "player": [ {
+                "condition": "entity_scores",
+                "entity": "this",
+                "scores": { "gpp.attack.cooldown": { "min": 0 } }
+            } ] }
+        }
+    },
+    "rewards": { "function": "gpp:player/advancement/attack" }
+}
