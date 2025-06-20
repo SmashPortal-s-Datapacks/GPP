@@ -1,6 +1,6 @@
 # GPP
 
-This is a datapack that adds an item called a GPP.
+This is a data pack that adds an item called a GPP.
 
 ![icon](https://github.com/SmashPortal-s-Datapacks/GPP/blob/main/pack.png?raw=true)
 
