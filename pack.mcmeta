@@ -1,0 +1,27 @@
+{
+    "pack": {
+        "description": {
+            "translate": "GPP v1.%s.%s by %s%s",
+            "with": [
+                {
+                    "text": "0",
+                    "color": "white"
+                },
+                {
+                    "text": "0",
+                    "color": "white"
+                },
+                {
+                    "text": "Smash",
+                    "color": "#4444FF"
+                },
+                {
+                    "text": "Portal",
+                    "color": "#BB44FF"
+                }
+            ],
+            "color": "gray"
+        },
+        "pack_format": 71
+    }
+}
