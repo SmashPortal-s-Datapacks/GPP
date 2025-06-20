@@ -12,12 +12,8 @@
                     "color": "white"
                 },
                 {
-                    "text": "Smash",
-                    "color": "#4444FF"
-                },
-                {
-                    "text": "Portal",
-                    "color": "#BB44FF"
+                    "text": "SmashPortal",
+                    "color": "#7733FF"
                 }
             ],
             "color": "gray"
